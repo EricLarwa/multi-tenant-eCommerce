@@ -21,7 +21,7 @@ export const NavbarSidebar = ({ items, open, onOpenChange }: Props) => {
                 <SheetHeader className="p-4 border-b">
                     <SheetTitle>Menu</SheetTitle>
                 </SheetHeader>
-                <ScrollArea className="flex flex-col overflow-y-auto h-full pb-2">
+                <ScrollArea className=" h-full">
                     {items.map((item) => (
                         <Link key={item.href} 
                         href={item.href} 

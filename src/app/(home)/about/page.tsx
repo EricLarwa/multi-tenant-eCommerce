@@ -1,11 +1,14 @@
- 
- const Page = () => {
-    return (
-        <div>
-            <h1>About Us</h1>
-            <p>Welcome to the about page of our application.</p>
-        </div>
-    )
- }
+const AboutPage = () => {
+  return (
+    <main className="container mx-auto px-4 py-8">
+      <header>
+        <h1 className="text-3xl font-bold mb-6">About Us</h1>
+      </header>
+      <section>
+        <p className="text-lg">Welcome to the about page of our application.</p>
+      </section>
+    </main>
+  );
+};
 
- export default Page;
+export default AboutPage;

@@ -1,11 +1,10 @@
- 
- const Page = () => {
-    return (
-        <div>
-            <h1>Features</h1>   
-            <p>Welcome to the features page of our application.</p>
-        </div>
-    )
- }
+import { JSX } from "react";
 
-export default Page;
+const Page = (): JSX.Element => {
+    return (
+        <main>
+            <h1 className="text-3xl font-bold mb-4">Features</h1>
+            <p>Welcome to the features page of our application.</p>
+        </main>
+    )
+}
